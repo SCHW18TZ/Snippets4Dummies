@@ -1,0 +1,15 @@
+{
+    "Generates basic react component": {
+        "prefix": "!elreactjs",
+        "body": [
+            "export default async function component() {",
+            "       return (",
+            "             <div></div>",
+            "          )",
+            "}"
+
+        ],
+        "description": "Generates a basic react component"
+      }
+      
+}
