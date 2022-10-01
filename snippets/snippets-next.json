@@ -1,6 +1,6 @@
 {
     "Generates basic nextjs middleware route": {
-        "prefix": "!elreactjs",
+        "prefix": "!nextmid",
         "body": [
             "export default function handler(req, res){",
             "    res.status(200).json({ name: 'John Doe' });",
