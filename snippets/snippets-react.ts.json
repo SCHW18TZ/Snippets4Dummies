@@ -1,6 +1,6 @@
 {
     "Generates basic react component in typescript": {
-        "prefix": "!elreactts",
+        "prefix": "!reactts",
         "body": [
             "export default async function component():React.FC {",
             "       return (",
