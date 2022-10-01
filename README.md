@@ -1,6 +1,6 @@
 # snippets4dummies README
 
-This is the README for your extension "snippets4dummies". After writing up a brief description, we recommend including the following sections.
+snippets4dummies
 
 ## Features
 

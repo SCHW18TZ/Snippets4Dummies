@@ -1,6 +1,7 @@
 {
   "name": "snippets4dummies",
   "displayName": "snippets4dummies",
+  "publisher": "SCHWITZ",
   "description": "Snippets4Dummies is an easy to use Visual Code Extension which is used for building beautiful layouts as fast as your crush rejects you!",
   "version": "1.0.0",
   "engines": {
