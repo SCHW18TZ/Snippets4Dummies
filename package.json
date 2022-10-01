@@ -3,15 +3,15 @@
   "displayName": "snippets4dummies",
   "publisher": "SCHWITZ",
   "description": "Snippets4Dummies is an easy to use Visual Code Extension which is used for building beautiful layouts as fast as your crush rejects you!",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.71.0"
   },
   "repository": {
     "type": "git",
-    "url":"https://github.com/SCHW18TZ/ext"
+    "url": "https://github.com/SCHW18TZ/ext"
   },
-  "icon":"icon.png",
+  "icon": "icon.png",
   "categories": [
     "Other"
   ],
@@ -22,20 +22,18 @@
   "contributes": {
     "snippets": [
       {
-      "language": "html",
-      "path": "./snippets/snippets-html.json"
+        "language": "html",
+        "path": "./snippets/snippets-html.json"
       },
       {
         "language": "css",
         "path": "./snippets/snippets-css.json"
       },
-
       {
         "language": "javascript",
         "path": "./snippets/snippets-js.json"
       }
-
-  ]
+    ]
   },
   "scripts": {
     "lint": "eslint .",
