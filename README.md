@@ -1,16 +1,14 @@
-# snippets4dummies README
+# Why Snippets4Dummies?
 
-snippets4dummies
+Snippets4Dummies is an easy to use Visual Code Extension which is used for building beautiful layouts as fast as your crush rejects you!
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+As of now we only have 1 navbar which is simple yet elegent!
 
-For example if there is an image subfolder under your extension project workspace:
+## How to use?
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Make a html,css,javascript file and use the command `!elnav` in all of the files for the proper functioning of the navbar!
 
 ## Requirements
 
