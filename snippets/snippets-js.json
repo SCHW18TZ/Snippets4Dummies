@@ -1,6 +1,6 @@
 {
     "generates js for simple Navbar": {
-        "prefix": "!navjs",
+        "prefix": "!elnav",
         "body": [
           "// Theme changer",
           "const themes = [",

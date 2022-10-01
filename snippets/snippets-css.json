@@ -1,6 +1,6 @@
 {
     "generates css for simple Navbar": {
-        "prefix": "!navcss",
+        "prefix": "!elnav",
         "body": [
           "* {",
           "  margin: 0;",
