@@ -1,0 +1,55 @@
+{
+  "name": "snippets4dummies",
+  "displayName": "snippets4dummies",
+  "description": "Snippets4Dummies is an easy to use Visual Code Extension which is used for building beautiful layouts as fast as your crush rejects you!",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/SCHW18TZ/ext"
+  },
+  "icon":"icon.png",
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:snippets4dummies.thisisatest"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "snippets": [
+      {
+      "language": "html",
+      "path": "./snippets/snippets-html.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/snippets-css.json"
+      },
+
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets-js.json"
+      }
+
+  ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.71.0",
+    "@types/glob": "^7.2.0",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "16.x",
+    "eslint": "^8.20.0",
+    "glob": "^8.0.3",
+    "mocha": "^10.0.0",
+    "typescript": "^4.7.4",
+    "@vscode/test-electron": "^2.1.5"
+  }
+}
