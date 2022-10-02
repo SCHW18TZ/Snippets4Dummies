@@ -8,7 +8,7 @@ As of now we only have 1 navbar which is simple yet elegent!
 
 ## How to use?
 
-Make a html,css,javascript file and use the command `!elnav` in all of the files for the proper functioning of the navbar!
+Make a HTML,CSS, and Javascript file and use the command `!elnav` in all of the files for the proper functioning of the navbar!
 
 ## Requirements
 
@@ -59,5 +59,3 @@ You can author your README using Visual Studio Code. Here are some useful editor
 
 - [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 - [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
