@@ -4,11 +4,19 @@ Snippets4Dummies is an easy to use Visual Code Extension which is used for build
 
 ## Features
 
-As of now we only have 1 navbar which is simple yet elegent!
+- A navbar which is simple yet elegent(available in HTML,CSS, Javascript)!
+- An if-else generator and a "for-each" block in Javascript.
+- Basic nextjs middleware route generator.
+- Basic react component generator.
+- Basic react component generator(in typescript).
 
 ## How to use?
 
-Make a HTML,CSS, and Javascript file and use the command `!elnav` in all of the files for the proper functioning of the navbar!
+- Make a HTML,CSS, and Javascript file and use the command `!elnav` in all of the files for the proper functioning of the navbar!
+- `!ifelse` and `!foreach` command in javascript for proper functioning of the respective snippets.
+- `!nextmid` command to generate basic nextjs middleware route.
+- `!reactjs` command to generate basic react component.
+- `!reactts` command to generate basic react component in typescript.
 
 ## Requirements
 
