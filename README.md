@@ -9,6 +9,7 @@ Snippets4Dummies is an easy to use Visual Code Extension which is used for build
 - Basic nextjs middleware route generator.
 - Basic react component generator.
 - Basic react component generator(in typescript).
+- Basic ava unit testing snippets.
 
 ## How to use?
 
@@ -17,6 +18,7 @@ Snippets4Dummies is an easy to use Visual Code Extension which is used for build
 - `!nextmid` command to generate basic nextjs middleware route.
 - `!reactjs` command to generate basic react component.
 - `!reactts` command to generate basic react component in typescript.
+- All snippets starting with `!ava` command to generate ava unit testing snippets.
 
 ## Requirements
 
