@@ -13,6 +13,7 @@ Snippets4Dummies is an easy to use Visual Code Extension which is used for build
 ## How to use?
 
 - Make a HTML,CSS, and Javascript file and use the command `!elnav` in all of the files for the proper functioning of the navbar!
+- Make a HTML and CSS file and use the command `!elfooter` in all of the files for the proper functioning of the footer!
 - `!ifelse` and `!foreach` command in javascript for proper functioning of the respective snippets.
 - `!nextmid` command to generate basic nextjs middleware route.
 - `!reactjs` command to generate basic react component.
