@@ -2,7 +2,11 @@
 
 All notable changes to the "snippets4dummies" extension will be documented in this file.
 
-## [1.3.0]
+## [1.4.1]
+
+- Fixed minor bugs
+
+## [1.4.0]
 
 - Added tons of more commands!
 
