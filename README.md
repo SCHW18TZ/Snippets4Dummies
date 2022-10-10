@@ -5,6 +5,7 @@ Snippets4Dummies is an easy to use Visual Code Extension which is used for build
 ## Features
 
 - A navbar which is simple yet elegent(available in HTML,CSS, Javascript)!
+- A footer which is classical (available in HTML,CSS)!
 - An if-else generator and a "for-each" block in Javascript.
 - Basic nextjs middleware route generator.
 - Basic react component generator.
