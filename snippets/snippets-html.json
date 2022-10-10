@@ -28,7 +28,7 @@
     "description": "Generates HTML for an elegant Navbar"
   },
   "Generates HTML for an elegant Footer": {
-    "prefix": "!elnav",
+    "prefix": "!elfooter",
     "body": [
       "<footer class=\"footer\">",
       "   <div class=\"footer__addr\">",
