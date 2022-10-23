@@ -102,36 +102,5 @@
       "</footer>"
     ],
     "description": "Generates HTML for an elegant Footer"
-  },
-  "Generates HTML for an login Page":{
-    "prefix": "!ellogin",
-    "body" : [
-    "<div class=\"container-cover\">",
-    "<div class=\"main\">",
-    "    <h1 class=\"login\">login</h1>",
-    "    <div class=\"content\">",
-    "        <input class=\"name\" type=\"text\" placeholder=\"name\" id=\"\"> </input>",
-    "        <input class=\"password\" type=\"password\" placeholder=\"password\" id=\"\"> </input>",
-    "    </div>",
-    "    <div class=\"terms\" >",
-    "        <input type=\"checkbox\" name=\"\" id=\"\">",
-    "        <p >agreed to the terms and condition</p>",
-    "    </div>",
-    "    <button id=\"button\">submit</button>",
-    "    <div class=\"icons\">",
-    "        <a href=\"#\" target=\"_blank\" ><i class=\"fa-brands fa-facebook ico\"></i></a>",
-    "        <a href=\"#\" target=\"_blank\" ><i class=\"fa-brands fa-google ico\"></i></a>",
-    "        <a href=\"#\" target=\"_blank\" ><i class=\"fa-brands fa-twitter ico\"></i></a>",
-    "        <a href=\"#\" target=\"_blank\" ><i class=\"fa-brands fa-linkedin ico\"></i>",
-    "        </a>",
-    "   </div>",
-    "    <div class=\"signup_txt\">",
-    "        <a href=\"#\">signUp</a> if not registered",
-    "    </div>",
-    "  </div>",
-    "</div>"
-    ],
-    "description": "Generates HTML for an elegant login page"
   }
-
 }
