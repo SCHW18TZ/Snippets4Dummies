@@ -1,0 +1,73 @@
+{
+  "Generates basic ava test": {
+    "prefix": "!avatest",
+    "body": ["test('test name', t => {", "    t.pass();", "});"],
+    "description": "Generates basic ava test"
+  },
+  "Generates truthy type ava test": {
+    "prefix": "!avatruthy",
+    "body": [
+      "test('test is truthy', t => {",
+      "    t.truthy('truthy test goes here');",
+      "});"
+    ],
+    "description": "Generates truthy type ava test"
+  },
+  "Generates falsy type ava test": {
+    "prefix": "!avafalsy",
+    "body": [
+      "test('test is falsy', t => {",
+      "    t.falsy('falsy type test goes here');",
+      "});"
+    ],
+    "description": "Generates falsy type ava test"
+  },
+  "Generates is type ava test": {
+    "prefix": "!avais",
+    "body": [
+      "test('test is', t => {",
+      "    t.is('actual', 'expected');",
+      "});"
+    ],
+    "description": "Generates is type ava test"
+  },
+  "Generates not type ava test": {
+    "prefix": "!avanot",
+    "body": [
+      "test('test not', t => {",
+      "    t.not('actual', 'expected');",
+      "});"
+    ],
+    "description": "Generates not type ava test"
+  },
+  "Generates deep equal type ava test": {
+    "prefix": "!avadeepeq",
+    "body": [
+      "test('test deep equal', t => {",
+      "    t.deepEqual('actual', 'expected');",
+      "});"
+    ],
+    "description": "Generates deep equal type ava test"
+  },
+  "Generates not deep equal type ava test": {
+    "prefix": "!avanotdeepeq",
+    "body": [
+      "test('test not deep equal', t => {",
+      "    t.notDeepEqual('actual', 'expected');",
+      "});"
+    ],
+    "description": "Generates not deep equal type ava test"
+  },
+  "Generates function throws type ava test": {
+    "prefix": "!avathrows",
+    "body": [
+      "test('test function throws', t => {",
+      "    const error = t.throws(() => {",
+      "        functionName();",
+      "    }, {instanceOf: TypeError});",
+      "    t.is(error.message, 'Error message');",
+      "});"
+    ],
+    "description": "Generates function throws type ava test"
+  }
+}
